@@ -29,16 +29,16 @@
 
 #include <windows.h>
 #include <wininet.h>
+#include "ptrerr.hpp"
 
 //need wininet.lib
 
 #pragma comment(lib,"wininet.lib")
 
-#define ___userAgent TEXT("Mozilla/4.0 (compatible; Windows NT 5.1)")
-
+#define ___userAgent TEXT("Mozilla/4.0 (compatible; Windows NT 6.1)")
 
 bool Func_DownloadEx(const TCHAR * url,const TCHAR * file,const DWORD FileAttributes){
-	const size_t dwBuffer=2048;	//buffer size
+	const size_t dwBuffer=2048;		//buffer size
 	HINTERNET hWeb,hRequest;		//Internet request handle
 	DWORD dwReadByte=0,dwReserved;		//read byte count
 	char szBuffer[dwBuffer]="";		//read buff
@@ -66,5 +66,3 @@ bool Func_DownloadEx(const TCHAR * url,const TCHAR * file,const DWORD FileAttrib
 inline bool __fastcall Func_Download(const TCHAR *url,const TCHAR *file){//for backward compatibility
 	return Func_DownloadEx(url,file,FILE_ATTRIBUTE_NORMAL);
 }
-
-

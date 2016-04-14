@@ -1,6 +1,11 @@
 # Download Executable File
 
-Download address:[hosts_tool.exe](https://git.io/vV2YO)
+Download address:[hosts_tool.exe](https://git.io/vVSwE)
+
+
+#### Minimum Supported Operator System:
+- Client : Microsoft Windows XP Family
+- Server : Microsoft Windows Server 2003 Family
 
 # Hosts Tool
 
@@ -20,9 +25,9 @@ main program file: `hosts_tool.exe`
 
 如果安装服务 程序会往`%SystemRoot%`下复制一个`hosts_tool.exe`文件用来作为服务启动的主程序
 
-安装服务后 日志文件会保存在`c:\Hosts_Tool_log.log`下 您可以通过查看日志观察服务的工作状态
+安装服务后 日志文件会保存在`C:\Hosts_Tool_log.log`下 您可以通过查看日志观察服务的工作状态
 
-卸载服务请使用原来的`hosts_tool.exe`文件 请不要在命令行中直接执行`hosts_tool -fu`
+卸载服务请使用原来的`hosts_tool.exe`文件 请不要在命令行中直接执行`hosts_tool -fu`(如执行 需要手动删除`%SystemRoot%`目录下的`hoststools.exe`)
 
 请间隔一段时间后清理`%SystemRoot%\system32\drivers\etc\`文件夹 (因为可能堆满了备份的文件)
 
@@ -30,7 +35,7 @@ Bug Report: 请开新的issue并`@Too-Naive`或者发邮件给 sweheartiii[at]ho
 
 ## for Developer
 
-Code license:
+### Code license:
 
 >The MIT License(MIT)(redefined)
 
@@ -40,7 +45,22 @@ Code license:
 
 >THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+### Service Debug Mode :
 
+If you want to enter debug mode, follow the steps blow.
+
+1. Open the console.
+2. Change the working directory where is the `hosts_tools.exe` position.
+3. Input `hosts_tools.exe --debug-pipe` and press enter.
+4. Now you can see the current working status of service.
+5. Press **Ctrl+C** to Exit debug mode.
+6. Exit debug mode will cause service uninstall.
+
+**WARNING: IN DEBUG MODE, DO NOT CLOSE THE CONSOLE DIRECT**
+
+	_Notice:In debug mode, service run cycle is very sort_
+
+### How to Compile?
 
 **Save `hosts_tool.exe.manifest` to directory first**
 
@@ -51,7 +71,7 @@ windres hosts_tool.rc -o hosts_toolr.o
 g++ -o hosts_tool.exe hosts_tool.cpp hosts_toolr.o -lwininet -O2 -s
 ```
 
-`hosts_tool.exe.manifest`:
+File `hosts_tool.exe.manifest`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -66,4 +86,4 @@ g++ -o hosts_tool.exe hosts_tool.cpp hosts_toolr.o -lwininet -O2 -s
 </assembly>
 ```
 
-
+Sorry for my poor English.
