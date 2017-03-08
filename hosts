@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-02-21
+# Last updated: 2017-03-05
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -866,6 +866,7 @@ fe80::1%lo0	localhost
 61.91.161.217	encrypted-tbn1.gstatic.com
 61.91.161.217	encrypted-tbn2.gstatic.com
 61.91.161.217	encrypted-tbn3.gstatic.com
+203.208.51.55	fonts.gstatic.com
 61.91.161.217	g0.gstatic.com
 61.91.161.217	g1.gstatic.com
 61.91.161.217	g2.gstatic.com
@@ -914,6 +915,7 @@ fe80::1%lo0	localhost
 61.91.161.217	ct.googleapis.com
 61.91.161.217	securetoken.googleapis.com
 61.91.161.217	firebasestorage.googleapis.com
+61.91.161.217	www-tactile-opensocial.googleusercontent.com
 61.91.161.217	www--google--com.safenup.googleusercontent.com
 61.91.161.217	www--google--com--hk.safenup.googleusercontent.com
 64.233.188.121	code.getmdl.io
@@ -2367,8 +2369,8 @@ fe80::1%lo0	localhost
 61.91.161.217	i9.ytimg.com
 61.91.161.217	s.ytimg.com
 61.91.161.217	manifest.googlevideo.com
-64.233.162.83	onetoday.google.com
-64.233.162.83	notifications.google.com
+61.91.161.217	onetoday.google.com
+61.91.161.217	notifications.google.com
 
 # Google:others Start
 61.91.161.217	google.ad
@@ -3129,7 +3131,7 @@ fe80::1%lo0	localhost
 23.38.96.57	read.kobobooks.com
 23.38.96.57	secure.kobobooks.com
 23.38.96.57	services.kobobooks.com
-23.38.96.57	store.kobobooks.
+23.38.96.57	store.kobobooks.com
 23.38.96.57	tr.kobobooks.com
 23.38.96.57	webstore.kobobooks.com
 23.38.96.57	webstore2.kobobooks.com
@@ -3283,6 +3285,19 @@ fe80::1%lo0	localhost
 204.79.197.217	webedgegeo.skyprod.akadns.net
 13.107.42.11	outlook.live.com
 # OneDrive End
+
+# pcbeta Start
+218.93.127.136	pcbeta.com
+218.93.127.136	uc.pcbeta.com
+218.93.127.136	m.pcbeta.com
+218.93.127.136	web.pcbeta.com
+218.93.127.136	i.pcbeta.com
+218.93.127.136	bbs.pcbeta.com
+218.93.127.136	www.pcbeta.com
+218.93.127.136	cdn.pcbeta.attachment.inimc.com
+218.93.127.136	cdn.pcbeta.static.inimc.com
+218.93.127.136	cdn.pcbeta.css.inimc.com
+# pcbeta End
 
 # Psiphon Start
 54.239.168.4	psiphon3.com
@@ -3528,6 +3543,10 @@ fe80::1%lo0	localhost
 198.35.26.96	zh.wikipedia.org
 198.35.26.96	zh.m.wikipedia.org
 # Wikipedia End
+
+# Xboxlive Start
+134.170.178.89	achievements.xboxlive.com
+# Xboxlive End
 
 # Yahoo Start
 192.0.79.32	code.flickr.com
