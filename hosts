@@ -1,6 +1,6 @@
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-05-12
+# Last updated: 2017-05-13
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -113,6 +113,16 @@ fe80::1%lo0	localhost
 # bandwagonhost.com Start
 104.20.6.63	bandwagonhost.com
 # bandwagonhost.com End
+
+# Cloudfront.net Start
+52.84.246.72	d3c33hcgiwev3.cloudfront.net
+52.84.246.90	d3c33hcgiwev3.cloudfront.net
+52.84.246.106	d3c33hcgiwev3.cloudfront.net
+52.84.246.135	d3c33hcgiwev3.cloudfront.net
+52.84.246.144	d3c33hcgiwev3.cloudfront.net
+52.84.246.227	d3c33hcgiwev3.cloudfront.net
+52.84.246.252	d3c33hcgiwev3.cloudfront.net
+# Cloudfront.net End
 
 # Disqus Start
 151.101.100.134	disqus.com
@@ -3525,39 +3535,39 @@ fe80::1%lo0	localhost
 # Tumblr End
 
 # Twitter Start
-104.244.45.252	twitter.com
-104.244.45.252	www.twitter.com
+104.244.45.253	twitter.com
+104.244.45.253	www.twitter.com
 185.45.5.47	t.co
-104.244.45.252	api.twitter.com
-104.244.45.252	caps.twitter.com
-104.244.45.252	mobile.twitter.com
-104.244.45.252	support.twitter.com
-104.244.45.252	upload.twitter.com
-104.244.45.252	tweetdeck.twitter.com
-104.244.45.252	syndication.twitter.com
-104.244.43.6	platform.twitter.com
-104.244.45.252	about.twitter.com
-104.244.45.252	blog.twitter.com
-104.244.45.252	betastream.twitter.com
-104.244.45.252	dev.twitter.com
-104.244.45.252	pic.twitter.com
-104.244.45.252	search.twitter.com
-104.244.45.252	status.twitter.com
-104.244.45.252	assets0.twitter.com
-104.244.45.252	assets1.twitter.com
-104.244.45.252	assets2.twitter.com
-104.244.45.252	assets3.twitter.com
-104.244.45.252	assets4.twitter.com
-104.244.45.252	static.twitter.com
-104.244.45.252	help.twitter.com
-104.244.45.252	ton.twitter.com
-104.244.45.252	s.twitter.com
-104.244.45.252	analytics.twitter.com
-104.244.45.252	urls-real.api.twitter.com
-104.244.45.252	userstream.twitter.com
-104.244.45.252	sitestream.twitter.com
-104.244.45.252	stream.twitter.com
-104.244.45.252	tdweb.twitter.com
+104.244.45.253	api.twitter.com
+104.244.45.253	caps.twitter.com
+104.244.45.253	mobile.twitter.com
+104.244.45.253	support.twitter.com
+104.244.45.253	upload.twitter.com
+104.244.45.253	tweetdeck.twitter.com
+104.244.45.253	syndication.twitter.com
+104.244.43.77	platform.twitter.com
+104.244.45.253	about.twitter.com
+104.244.45.253	blog.twitter.com
+104.244.45.253	betastream.twitter.com
+104.244.45.253	dev.twitter.com
+104.244.45.253	pic.twitter.com
+104.244.45.253	search.twitter.com
+104.244.45.253	status.twitter.com
+104.244.45.253	assets0.twitter.com
+104.244.45.253	assets1.twitter.com
+104.244.45.253	assets2.twitter.com
+104.244.45.253	assets3.twitter.com
+104.244.45.253	assets4.twitter.com
+104.244.45.253	static.twitter.com
+104.244.45.253	help.twitter.com
+104.244.45.253	ton.twitter.com
+104.244.45.253	s.twitter.com
+104.244.45.253	analytics.twitter.com
+104.244.45.253	urls-real.api.twitter.com
+104.244.45.253	userstream.twitter.com
+104.244.45.253	sitestream.twitter.com
+104.244.45.253	stream.twitter.com
+104.244.45.253	tdweb.twitter.com
 104.244.43.52	twitpic.com
 104.244.43.52	m1.twitpic.com
 104.244.43.52	web1.twitpic.com
