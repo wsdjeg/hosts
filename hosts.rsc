@@ -2,7 +2,7 @@
 
 # Copyright (c) 2014-2017, racaljk.
 # https://github.com/racaljk/hosts
-# Last updated: 2017-06-18
+# Last updated: 2017-06-22
 
 # This work is licensed under a CC BY-NC-SA 4.0 International License.
 # https://creativecommons.org/licenses/by-nc-sa/4.0/
@@ -394,6 +394,7 @@ add address=184.169.141.161 name=flipboard.helpshift.com
 
 # Github Start
 add address=192.30.253.118 name=gist.github.com
+add address=151.101.72.249 name=global-ssl.fastly.net
 # Github End
 
 # Gmail web Start
@@ -2967,6 +2968,19 @@ add address=216.239.38.21 name=madewithcode.com
 add address=216.239.38.21 name=www.madewithcode.com
 # Google:Made the code for girls Start End
 
+# Google:Fit Start
+add address=216.58.200.33 name=lax17s02-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s03-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s04-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s05-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s14-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s15-in-f10.1e100.net
+add address=216.58.200.33 name=lax17s34-in-f10.1e100.net
+add address=216.58.200.33 name=lax28s01-in-f10.1e100.net
+add address=216.58.200.33 name=tsa01s07-in-f10.1e100.net
+add address=216.58.200.33 name=tsa01s08-in-f10.1e100.net
+# Google:Fit End
+
 # HumbleBundle Start
 add address=5.153.35.171 name=humble.pubnub.com
 add address=198.41.186.33 name=humblebundle.com
@@ -3371,9 +3385,73 @@ add address=2.17.58.51 name=api.onedrive.com
 add address=204.79.197.217 name=onedrive.live.com
 add address=204.79.197.217 name=skyweb.skyprod.akadns.net
 add address=204.79.197.217 name=webedgegeo.skyprod.akadns.net
-add address=134.170.107.72 name=skyapi.onedrive.live.com
+add address=104.44.88.28 name=skyapi.onedrive.live.com
 add address=13.107.42.11 name=outlook.live.com
 # OneDrive End
+
+# Opera mini Start
+add address=107.167.115.253 name=mini5.opera-mini.net
+add address=107.167.115.253 name=gameloft.com.minil.beta.opera-mini.net
+add address=107.167.115.253 name=opx.opera.com.mini5-9.opera-mini.net
+add address=107.167.115.253 name=m.tiket.com.mini5-5.opera-mini.net
+add address=107.167.115.253 name=sharp-cust.opera-mini.net
+add address=107.167.115.253 name=opx.opera.com.mini5-7.opera-mini.net
+add address=107.167.115.253 name=wapshop.gameloft.com.minil.beta.opera-mini.net
+add address=107.167.115.253 name=wapdemon.beta.opera-mini.net
+add address=107.167.115.253 name=proxytubo.appspot.com.beta.opera-mini.net
+add address=107.167.115.253 name=skype.com.mini5-1.opera-mini.net
+add address=107.167.115.253 name=com.indosat.com.mini5-1.opera-mini.net
+add address=107.167.115.253 name=nokia-s40-12-cust.opera-mini.net
+add address=107.167.115.253 name=fly-cust.opera-mini.net
+add address=107.167.115.241 name=mini5-1.opera-mini.net
+add address=107.167.115.241 name=labs1-turbo-1.beta.opera-mini.net
+add address=107.167.115.242 name=mini5-2.opera-mini.net
+add address=107.167.115.242 name=global-4-lvs-colossus-2.opera-mini.net
+add address=107.167.115.238 name=mini5-6.opera-mini.net
+add address=107.167.115.239 name=mini5-7.opera-mini.net
+add address=107.167.115.240 name=mini5-8.opera-mini.net
+add address=107.167.115.240 name=global-4-lvs-colossus-8.opera-mini.net
+add address=111.11.6.118 name=mini5cn.opera-mini.net
+add address=111.11.6.118 name=mini5cn-1.opera-mini.net
+add address=185.26.180.102 name=n14-03-01.opera-mini.net
+add address=82.145.210.217 name=cust-demo-test-7.opera-mini.net
+add address=107.167.115.253 name=helio-cust.opera-mini.net
+add address=107.167.115.253 name=10.9.labs1-turbo.beta.opera-mini.net
+add address=107.167.115.253 name=opx.opera.com.turbo-5.beta.opera-mini.net
+add address=107.167.97.236 name=s35-13.opera-mini.net
+add address=37.228.107.241 name=global-turbo2-1.opera-mini.net
+add address=37.228.111.170 name=a13-08-01.opera-mini.net
+add address=107.167.108.184 name=a25-06-11.opera-mini.net
+add address=185.26.181.241 name=global-4-lvs-odra-1.opera-mini.net
+add address=82.145.209.242 name=global-4-lvs-turing-2.opera-mini.net
+add address=37.228.107.239 name=cdn0.opera-mini.net
+add address=37.228.107.239 name=sitecheck2.opera-mini.net
+add address=82.145.209.251 name=global-turbo-2-lvs-turing.opera-mini.net
+add address=141.0.12.125 name=n24-05-01.opera-mini.net
+add address=82.145.211.251 name=global-4-lvs-turing-8.opera-mini.net
+add address=37.228.107.239 name=sitecheck2.opera-mini.net
+add address=82.145.223.56 name=n19-04-08.opera-mini.net
+add address=107.167.99.181 name=s22-01-08.opera-mini.net
+add address=107.167.103.4 name=s23-03-02.opera-mini.net
+add address=82.145.220.251 name=n08-07-07.opera-mini.net
+add address=141.0.12.126 name=n24-05-02.opera-mini.net
+add address=185.26.181.242 name=global-4-lvs-odra-2.opera-mini.net
+add address=185.26.182.62 name=opera10beta-turbo.opera-mini.net
+add address=82.145.208.44 name=z01-09-01.opera-mini.net
+add address=107.167.96.210 name=s20-15.opera-mini.net
+add address=185.26.181.253 name=global-4-lvs-odra.opera-mini.net
+add address=82.145.211.56 name=z38-09.opera-mini.net
+add address=82.145.211.9 name=z24-10.opera-mini.net
+add address=37.228.107.239 name=af.opera-mini.net
+add address=37.228.109.141 name=a06-05-08-v04.opera-mini.net
+add address=107.167.110.211 name=sitecheck.opera-mini.net
+add address=107.167.113.209 name=global-max-1.opera-mini.net
+add address=82.145.221.193 name=n11-07-07.opera-mini.net
+add address=37.228.107.253 name=global-4-lvs-hopper.opera-mini.net
+add address=111.11.6.120 name=global-turbo2.opera-mini.net
+add address=82.145.210.168 name=z21-09.opera-mini.net
+add address=82.145.211.1 name=z24-02.opera-mini.net
+# Opera mini End
 
 # pinterest Start
 add address=151.101.64.84 name=pinterest.com
@@ -3437,8 +3515,10 @@ add address=104.20.39.14 name=www.psiphon.ca
 # Psiphon End
 
 # Resilio Sync Start
-add address=54.230.143.112 name=config.getsync.com
-add address=54.230.143.112 name=update.getsync.com
+add address=52.85.69.35 name=config.getsync.com
+add address=52.85.69.35 name=update.getsync.com
+add address=52.85.69.166 name=www.getsync.com
+add address=52.85.69.73 name=getsync.com
 # Resilio Sync End
 
 # slideshare Start
@@ -3840,12 +3920,5 @@ add address=61.91.161.217 name=youtubei.googleapis.com
 add address=61.91.161.217 name=youtube-ui.l.google.com
 add address=61.91.161.217 name=www.youtube-nocookie.com
 # Youtube End
-
-# Resilio Sync Start
-add address=52.85.69.35 name=config.getsync.com
-add address=52.85.69.35 name=update.getsync.com
-add address=52.85.69.166 name=www.getsync.com
-add address=52.85.69.73 name=getsync.com
-# Resilio Sync End
 
 # Modified Hosts End
